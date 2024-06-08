@@ -8,13 +8,13 @@
 Rather than doing the measurement and modify code instruction manually, bluetooth communication can be added into leanbot for data collection and send command to perform task then record the right sequences of tasks to streamline the process. As a result of this features, the trial and error process is **shorten from 2 weeks to 2 days**. 
 
 ## Readme structure
-- [Leanbot Platform]
-  - [Built-in Function]
-- [Arduino Code]
-  - [Bluetooth communication]
-  - [Data Parsing]
-  - [Record and Play]
-- [Limitation]
+- [Leanbot Platform](#leanbot-platform)
+  - [Built-in Function](#built-in-function)
+- [Arduino Code](#arduino-code)
+  - [Bluetooth communication](#bluetooth-communication)
+  - [Data Parsing](#data-Parsing)
+  - [Record and Play](#record-and-play)
+- [Limitation](#limitation)
 
 ## Leanbot Platform
 Leanbot come with many function out of the box. It include stepper motor control, gripper, ultrasonic sensor, RGB Led, MotionTracking sensor, IR sensor array, buzzer, bluetooth module and more. Since its microcontroller is arduino, all of the electronic components are open source as well. Many resources are available to tinker the Arduino ecosystem. What make Leanbot unique is that its arduino come in ready to use along with beginner-friendly programming platform to start children age between 7 to 15 their learning journey in STEM. 
@@ -432,6 +432,26 @@ void runFollowLine() {
 
 }
 ```
+
+###Bluetooth communication
+  
+  
+###Data Parsing
+ 
+ 
+###Record and Play
+  
+  
+  
+  
+  
+  
+##Limitation
+
+
+
+
+
 
 
 
