@@ -20,20 +20,17 @@ To connect PC with Leanbot, follow the steps below.
 3. Download Arduino IDE to use its Serial monitor
 
 4. Connect IDE with leanbot
-	- Find leanbot com **may be different for each PC 
+	- Find leanbot com (may be different for each PC )
 	- Select port
 
 5. Connection is successful when leanbot stop blinking and a short buzz is heard
 
-### Built-in function
-To program leanbot and utilise their custom made library function, go to their [online IDE website](https://ide.pythaverse.space/). 
-
 ## How to Use
-Upload 
+Upload .ino file to leanbot. Serial monitor will provide the instructions to interact with it. For example, command like _**movems(speed, distance)**_ called leanbot to move forward with specified speed toward a distance. 
 
   
 ## Limitation
-
+Depend on the IDE serial monitor to communicate with leanbot. It is very user friendly. A client app can be created to better interface with leanbot in the future. 
 
 
 
