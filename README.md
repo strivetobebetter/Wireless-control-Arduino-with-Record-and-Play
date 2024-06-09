@@ -38,7 +38,7 @@ To connect PC with Leanbot, follow the steps below.
 To program leanbot and utilise their custom made library function, go to their [online IDE website](https://ide.pythaverse.space/). 
 
 
-## Arduino Code
+## Arduino Code Explanation
 Here is the arduino code of the controller:
 ```cpp
 #include <Leanbot.h> 
