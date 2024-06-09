@@ -2,7 +2,7 @@
 
 
 ## Problem Statement
-[Leanbot](https://leanbot.space/), a Arduino based robotkit from Vietnam, is used in competition to complete various tasks to win the competition. Different competition required different task so Leanbot code need to change to match the tasks. This is a very time consuming process. Measuring the Leanbot distance and orientation then modify a small section of the code for every iteration is a tideous trial and error process. 
+[Leanbot](https://leanbot.space/), a Arduino based robotkit from Vietnam, is used in competition to expose student the STEM concept like microcontroller, programming, engineering and etc. Every year different competition will come up with new and different task for leanbot to score point, so Leanbot code need to change to match the tasks every year. This is a very time consuming process. Measuring the Leanbot distance and orientation then modify a small section of the code for every iteration is a tideous trial and error process. 
 
 ## Solution
 Rather than doing the measurement and modify code instruction manually, bluetooth communication can be added into leanbot for data collection and send command to perform task then record the right sequences of tasks to streamline the process. As a result of this features, the trial and error process is **shorten from 2 weeks to 2 days**. 
@@ -18,6 +18,9 @@ Rather than doing the measurement and modify code instruction manually, bluetoot
 
 ## Leanbot Platform
 Leanbot come with many function out of the box. It include stepper motor control, gripper, ultrasonic sensor, RGB Led, MotionTracking sensor, IR sensor array, buzzer, bluetooth module and more. Since its microcontroller is arduino, all of the electronic components are open source as well. Many resources are available to tinker the Arduino ecosystem. What make Leanbot unique is that its arduino come in ready to use along with beginner-friendly programming platform to start children age between 7 to 15 their learning journey in STEM. 
+
+### Bluetooth Module
+Leanbot come with bluetooth function out-of-the-box
 
 ### Built-in function
 To program leanbot and utilise their custom made library function, go to their [online IDE website](https://ide.pythaverse.space/). 
@@ -433,20 +436,20 @@ void runFollowLine() {
 }
 ```
 
-###Bluetooth communication
+### Bluetooth communication
+PC and Arduino connection need to establish with 
   
-  
-###Data Parsing
+### Data Parsing
  
  
-###Record and Play
+### Record and Play
   
   
   
   
   
   
-##Limitation
+## Limitation
 
 
 
