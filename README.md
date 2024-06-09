@@ -30,7 +30,7 @@ Upload .ino file to leanbot. Serial monitor will provide the instructions to int
 
   
 ## Limitation
-Depend on the IDE serial monitor to communicate with leanbot. It is very user friendly. A client app can be created to better interface with leanbot in the future. 
+Using IDE serial monitor to communicate with leanbot is not user friendly. A client app can be created to better interface with leanbot in the future. 
 
 
 
